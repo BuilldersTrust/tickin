@@ -1,6 +1,10 @@
 import React from 'react'
 import "./About.scss"
 import Card from '../components/Card'
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import QrCodeScannerIcon from '@mui/icons-material/QrCodeScanner';
+import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
+import VerifiedUserIcon from '@mui/icons-material/VerifiedUser';
 
 export default function Benefits() {
   return (
@@ -10,11 +14,10 @@ export default function Benefits() {
         advantage of the latest technological innovations</div>
 
       <div className='card-section'>
-        <Card headerText="a" bodyText="b" icon="c"/>
-        <Card headerText="a" bodyText="b" icon="c"/>
-        <Card headerText="a" bodyText="b" icon="c"/>
-        <Card headerText="a" bodyText="b" icon="c"/>
-
+        <Card headerText="A title" bodyText="a text" icon={<FavoriteIcon />} />
+        <Card headerText="A title" bodyText="a text" icon={<QrCodeScannerIcon />} />
+        <Card headerText="A title" bodyText="a text" icon={<MonetizationOnIcon />} />
+        <Card headerText="A title" bodyText="a text" icon={<VerifiedUserIcon />} />
       </div>
 
     </div>

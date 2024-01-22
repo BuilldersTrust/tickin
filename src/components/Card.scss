@@ -7,7 +7,15 @@
     min-height: 10rem;
     padding: 1rem;
 
-    .card-header{
+    .card-title{
+        font-size: 1.5rem;
+        gap: 0.5rem;
+        display: flex;
+        align-items: flex-end;
         
+        .card-icon svg{
+            width:  2rem;
+            height:  2rem;
+        }
     }
 }

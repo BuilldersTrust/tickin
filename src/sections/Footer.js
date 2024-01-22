@@ -1,30 +1,8 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import './Footer.scss'
-import { useForm, ValidationError } from '@formspree/react';
 
 export default function Footer() {
-    const formToken = "mvoezzae";
-    const [state, handleSubmit] = useForm(formToken);
-    const [message, setMessage] = useState("")
-    const [text, setText] = useState('');
-    const formRef = useRef(null);
-    const [formSubmitted, setFormSubmitted] = React.useState(false);
 
-
-    useEffect(() => {
-        if (state.succeeded) {
-            setFormSubmitted(true); // Set formSubmitted to true
-            setMessage("Message sent successfully");
-            formRef.current.reset(); // Reset the form
-            setText("");
-            setTimeout(() => {
-                setMessage(""); // Clear the message after 3 seconds
-                setFormSubmitted(false); // Set formSubmitted back to false
-                window.location.reload(false);
-            }, 3000);
-
-        }
-    }, [state.succeeded])
 
     return (
         <footer>
