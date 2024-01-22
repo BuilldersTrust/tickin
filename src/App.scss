@@ -1,0 +1,24 @@
+:root {
+    --dark-blue-color: #0D0f23;
+    --white-color: #FAFAFA;
+    --light-blue-color: #194486;
+  
+  }
+  
+  /* scrollbar */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 9px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--dark-blue-color);
+    border-radius: 10rem;
+  }
+  
+  ::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+  }

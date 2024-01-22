@@ -1,0 +1,14 @@
+.about-section {
+  color: var(--white-color);
+  background-color: var(--dark-blue-color);
+
+  padding: 5rem 2rem;
+
+  .card-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+  }
+}

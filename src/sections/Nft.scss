@@ -1,0 +1,37 @@
+.nft-section{
+    background-color: var(--white-color);
+    color: var(--dark-blue-color); 
+    padding-bottom: 10rem ;  
+
+    .header-text{
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        padding: 3rem 0;
+    }
+
+    .nft-container{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        height: 25rem;
+        align-items: flex-end;
+
+
+
+        .nft-element{
+            background: linear-gradient(251.38deg, #FFE600 0%, #00E0FF 99.76%);
+            border-radius: 2rem ;
+            height: 12rem;
+            display: flex;
+            align-items: flex-end;
+
+            img{
+                height: 20rem;
+            }
+        }
+
+
+    }
+}
