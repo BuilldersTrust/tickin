@@ -5,7 +5,7 @@ import "./HeroHeaderSection.scss"
 
 function HeroHeaderSection() {
     return (
-        <div className=" hero-pattern">
+        <div className=" hero-pattern container">
             <section className='hero-section flex  justify-between  px-20 py-10 ' >
                 <div className='hero-txt   '>
                     <h1 className="text-[53px] font-semibold ">Tickin,</h1>

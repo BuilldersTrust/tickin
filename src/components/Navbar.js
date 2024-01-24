@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom'; 
 
 const Navbar = () => {
     return (
@@ -11,13 +11,13 @@ const Navbar = () => {
                 </div>
                 <div className="nav-links-btn flex text-center align-middle pt-2 ">
                     <ul className='flex justify-between  items-center'  >
-                        <li className='px-6'><a className='active:font-bold' href="/">Home</a></li>
-                        <li className='px-6  '><a className='hover:text-[#194486] ' href="/about">Events</a></li>
-                        <li className='px-6'><a className='hover:text-[#194486] ' href="/">Creators</a></li>
-                        <li className='px-6'><a className='hover:text-blue-800 ' href="/">Buyers</a></li>
-                        <li className='px-6'><a className='hover:text-[#194486] ' href="/">About</a></li>
+                        <li className='px-6'><Link className='active:font-bold' to="/">Home</Link></li>
+                        <li className='px-6  '><Link to="/events" className='hover:text-[#194486] '>Events</Link></li>
+                        <li className='px-6'><Link className='hover:text-[#194486] ' to="/Creators">Creators</Link></li>
+                        <li className='px-6'><Link className='hover:text-blue-800 ' to="/Buyers">Buyers</Link></li>
+                        <li className='px-6'><Link className='hover:text-[#194486] ' to="/">About</Link></li>
                     </ul>
-                    <a href="/dashboard.js"><button type="submit" className='border-solid border-2 border-[#194486] px-[17px] py-2 rounded-lg'>Connect Wallet</ button></a>
+                    <Link to="/connect-wallet"><button type="submit" className='border-solid border-2 border-[#194486] px-[17px] py-2 rounded-lg'>Connect Wallet</ button></Link>
                 </div>
 
             </nav>
