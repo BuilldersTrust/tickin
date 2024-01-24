@@ -1,7 +1,7 @@
 .about-section {
   color: var(--white-color);
   background-color: var(--dark-blue-color);
-
+  z-index: -1;
   padding: 5rem 2rem;
 
   .card-section {
