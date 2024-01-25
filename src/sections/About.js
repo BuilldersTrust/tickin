@@ -7,10 +7,12 @@ import { about } from '../data/data'
 export default function Benefits() {
   return (
     <div className='about-section'>
-      <div className='main-title'>Big benefits, readily available</div>
+    <div className='text-section'>
+    <div className='main-title'>Big benefits, readily available</div>
       <div className='sub-text'> We help anyone who issues tickets worldwide to take
         advantage of the latest technological innovations</div>
 
+    </div>
       <div className='card-section'>
 
         {about.map((data, index) => {

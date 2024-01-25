@@ -4,7 +4,6 @@ import Dashboard from "./sections/dashboard";
 import Events from "./pages/Events";
 import Creators from "./pages/Creators";
 import Buyers from "./pages/Buyers";
-import About from "./pages/About";
 import Home from "./pages/Home";
 import ConnectWallet from "./sections/ConnectWallet";
 
@@ -19,7 +18,6 @@ function App() {
           <Route index element={<Home />} />
           <Route path="events" element={<Events />} />
           <Route path="dashboard" element={<Dashboard />} />
-          <Route path="about" element={<About />} />
           <Route path="creators" element={<Creators />} />
           <Route path="buyers" element={<Buyers />} />
           <Route path="connect-wallet" element={<ConnectWallet />} />

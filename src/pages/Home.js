@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from "../components/Navbar"
 import Hero from "../sections/HeroHeaderSection";
-import About from "../pages/About";
+import About from "../sections/About";
 import NFT from "../sections/Nft";
 import Footer from "../sections/Footer";
 
