@@ -2,16 +2,16 @@
     background-color: var(--white-color);
     color: var(--dark-blue-color);
     border-radius: 0.5rem;
-    width: 16rem;
-    height: auto;
-    min-height: 10rem;
-    padding: 1rem;
+    width: 19rem;
+    height: 16rem;
+    padding: 2.5rem;
 
     .card-title{
         font-size: 1.5rem;
         gap: 0.5rem;
         display: flex;
         align-items: flex-end;
+        margin-bottom: 1rem;
         
         .card-icon svg{
             width:  2rem;
