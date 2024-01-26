@@ -5,16 +5,33 @@ export default function Footer() {
 
 
     return (
-        <footer>
-            <div className="footer-widgets">
+        <footer className='footer-section'>
+            <div className='footer-overlay'></div>
+            <div className='footer-content'>
+                <div className='row'>
+                    <div className='col'>
+                        <p>Tickin</p>
+                    </div>
+                    <div className='col'>
+                        <p>How It Works</p>
+                    </div>
+                    <div className='col'>
+                        <p>About Tickin</p>
+
+                    </div>
+                    <div className='col'>
+                        <p>Events</p>
+
+                    </div>
+                    <div className='col'>
+                        <p>Connect With Us</p>
+
+                    </div>
+                </div>
 
             </div>
             <div className="foot-note">
-
-                <div
-                    className="footer-content text-center text-lg-left d-lg-flex justify-content-between align-items-center">
-                    <p className="mb-0" data-aos="fade-right" data-aos-offset="0">&copy;TICKIN - 2023 All Rights Reserved.</p>
-                </div>
+                <p className="mb-0">&copy;TICKIN - 2023 All Rights Reserved.</p>
             </div>
         </footer>
     )

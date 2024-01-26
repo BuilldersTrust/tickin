@@ -1,0 +1,23 @@
+.statistics-section {
+  background-color: var(--white-color);
+  color: var(--light-blue-color);
+  padding: 5rem 0;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+
+    .col {
+      border-right: 1px solid var(--light-blue-color);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .large-text {
+        font-size: 4rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

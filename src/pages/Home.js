@@ -5,6 +5,8 @@ import About from "../sections/LandingPage/About";
 import NFT from "../sections/LandingPage/Nft";
 import Footer from "../sections/LandingPage/Footer";
 import CTA from '../sections/LandingPage/CTA';
+import Statistics from '../sections/LandingPage/Statistics';
+import Partners from '../sections/LandingPage/Partners';
 
 function Home() {
     return (
@@ -15,6 +17,8 @@ function Home() {
                 <About />
                 <NFT />
                 <CTA/>
+                <Partners/>
+                <Statistics/>
                 <Footer />
             </div>
         </>

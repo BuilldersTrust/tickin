@@ -5,6 +5,7 @@ import currency from "../assets/svg/currency.svg"
 import safety from "../assets/svg/safety.svg"
 
 
+
 export const about = [
     {
         header: "Experience",
@@ -27,3 +28,24 @@ export const about = [
         icon: safety,
     },
 ];
+
+
+export const statistics =[
+    {
+        uppertext: "Served ticket buyers from",
+        number: 121,
+        lowertext: "Countries",
+    },
+    {
+        uppertext: "Facilitated",
+        number: 217,
+        lowertext: "new events last month",
+    },
+    {
+        uppertext: "Over",
+        number: 423,
+        lowertext: "artists & organizers supported",
+    },
+
+
+]
