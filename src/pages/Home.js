@@ -1,18 +1,20 @@
 import React from 'react'
 import Navbar from "../components/Navbar"
-import Hero from "../sections/HeroHeaderSection";
-import About from "../sections/About";
-import NFT from "../sections/Nft";
-import Footer from "../sections/Footer";
+import Hero from "../sections/LandingPage/HeroHeaderSection";
+import About from "../sections/LandingPage/About";
+import NFT from "../sections/LandingPage/Nft";
+import Footer from "../sections/LandingPage/Footer";
+import CTA from '../sections/LandingPage/CTA';
 
 function Home() {
     return (
         <>
-            <div className="container">
+            <div >
                 <Navbar />
                 <Hero />
                 <About />
                 <NFT />
+                <CTA/>
                 <Footer />
             </div>
         </>

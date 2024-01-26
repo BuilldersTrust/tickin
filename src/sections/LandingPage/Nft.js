@@ -3,7 +3,7 @@ import "./Nft.scss"
 
 import {
     man, warthog, ape
-} from '../assets'
+} from '../../assets'
 
 
 export default function NFT() {
