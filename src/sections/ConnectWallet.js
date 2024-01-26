@@ -31,20 +31,21 @@ export const wallets = [
 
 function ConnectWallet() {
     return (
-        <>
-            <img src={brand} alt="brand" />
-            <p className="text">Connect your wallet</p>
-            <div className="wallet-container">
+        <div className='wallet-container'>
+            <div className='wallet-card'>
+                <img src={brand} alt="brand" className='brand-logo' />
+                <p className="header-text">Connect your wallet</p>
                 {wallets.map((wallet) => (
-                    <div key={wallet.id} className="wallet bg-black">
-                        <a className="link" href="/">
-                            <img src={wallet.img} alt={wallet.name} />
-                            <p>{wallet.name}</p>
-                        </a>
-                    </div>
+                    <a key={wallet.id} className="wallet" href="/">
+                        <img src={wallet.img} alt={wallet.name} />
+                        <p>{wallet.name}</p>
+                    </a>
                 ))}
+                <div className='footer-text'>
+                    By connecting a wallet, you agree to our Terms and Conditions and consent to its Privacy Policy
+                </div>
             </div>
-        </>
+        </div>
     );
 };
 
