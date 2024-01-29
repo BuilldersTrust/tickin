@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'; 
+import ConnectWalletButton from './ConnectWalletButton';
 
 const Navbar = () => {
     return (
@@ -17,9 +18,8 @@ const Navbar = () => {
                         <li className='px-6'><Link className='hover:text-blue-800 ' to="/Buyers">Buyers</Link></li>
                         <li className='px-6'><Link className='hover:text-[#194486] ' to="/">About</Link></li>
                     </ul>
-                    <Link to="/connect-wallet"><button type="submit" className='border-solid border-2 border-[#194486] px-[17px] py-2 rounded-lg'>Connect Wallet</ button></Link>
+                    <ConnectWalletButton className='border-solid border-2 border-[#194486] px-[17px] py-2 rounded-lg' />
                 </div>
-
             </nav>
         </header>
 
