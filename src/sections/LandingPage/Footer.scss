@@ -1,0 +1,39 @@
+.footer-section {
+  position: relative;
+  background-image: url("../../assets/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white-color);
+  padding: 2rem 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  width: 100%;
+
+  .footer-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+  }
+
+  .footer-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+
+    .row {
+      width: 100%;
+    }
+  }
+  .foot-note {
+    position: relative;
+    z-index: 1;
+  }
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./About.scss"
-import Card from '../components/Card'
-import { about } from '../data/data'
+import Card from '../../components/Card'
+import { about } from '../../data/data'
 
 
 export default function Benefits() {
