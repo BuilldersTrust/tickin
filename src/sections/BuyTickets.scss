@@ -1,0 +1,51 @@
+.buyticket_hero {
+    background: url(../assets/buytickethero.png) no-repeat center/cover; 
+    background-blend-mode: normal;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+    h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        width: 45%;
+        color: white;
+        font-weight: 700;
+    }
+}
+
+.search {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 15px;
+    input {
+        width: 50vw;
+        padding: 10px 0;
+        border: none;
+        font-size: 20px;
+        margin: 0 10px;
+        &::placeholder {
+            font-size: 18px;
+            padding-left: 10px;
+            font-style: italic;
+        }
+    }
+    button {
+        padding: 4px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #194486;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+        &:hover {
+            background-color: #1d52a1;
+        }
+    }
+}
