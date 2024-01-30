@@ -5,6 +5,7 @@ import metaMaskImage from '../assets/Meta mask.png';
 import trustWalletImage from '../assets/Trust wallet.png';
 import phantomImage from '../assets/Phantom.png';
 import coinbasetImage from '../assets/Component 2.png';
+import EventiiWeb3 from '../EventiiWeb3';
 
 export const wallets = [
     {
@@ -36,7 +37,7 @@ function ConnectWallet() {
                 <img src={brand} alt="brand" className='brand-logo' />
                 <p className="header-text">Connect your wallet</p>
                 {wallets.map((wallet) => (
-                    <a key={wallet.id} className="wallet" href="/">
+                    <a key={wallet.id} className="wallet" href="javascript:void(0)" onClick={() => EventiiWeb3.connectWallet().then(() => window.location.assign('/'))}>
                         <img src={wallet.img} alt={wallet.name} />
                         <p>{wallet.name}</p>
                     </a>
