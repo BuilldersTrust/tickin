@@ -1,0 +1,44 @@
+.wallet-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+
+  .wallet-card {
+    border: 3px solid #b3b3b3;
+    border-radius: 1rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 2rem 4rem;
+
+    .header-text {
+    }
+
+    .wallet {
+      border: 1px #b3b3b3 solid;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      padding: 10px 0;
+      border-radius: 10px;
+
+      img {
+        height: auto;
+        width: 2rem;
+      }
+
+      &:hover{
+        background-color: #b3b3b3;
+        color: var(--white-color);
+      }
+    }
+
+    .footer-text {
+    }
+  }
+}

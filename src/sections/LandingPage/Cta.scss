@@ -1,0 +1,15 @@
+.cta-section {
+  background-image: url("../../assets/cta.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--dark-blue-color);
+  padding: 10rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .main-title {
+    font-size: 3rem;
+  }
+}

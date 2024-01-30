@@ -1,11 +1,11 @@
 .hero-pattern {
-  background-image: url("../assets/wavy.png");
-width: 80%;
+  background-image: url("../../assets/wavy.png");
   text-align: left;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-//   background-attachment: scroll;
 
+  .hero-section{
+    display: flex;
+  }
 }
-
