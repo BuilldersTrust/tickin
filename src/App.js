@@ -6,13 +6,15 @@ import Creators from "./pages/Creators";
 import Buyers from "./pages/Buyers";
 import Home from "./pages/Home";
 import ConnectWallet from "./sections/ConnectWallet";
+import BuyTickets from "./sections/BuyTickets";
+import Footer from './sections/Footer'
 
 
 function App() {
   return (
 
     <div className="App">
-      {/* <Home /> */}
+      
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
@@ -21,8 +23,10 @@ function App() {
           <Route path="creators" element={<Creators />} />
           <Route path="buyers" element={<Buyers />} />
           <Route path="connect-wallet" element={<ConnectWallet />} />
+          <Route path="buy-tickets" element={<BuyTickets />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

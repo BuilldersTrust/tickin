@@ -1,0 +1,118 @@
+/* Base styles for the body, etc. */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Styling for the button that opens the modal */
+.open-modal-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+/* Overlay that covers the entire screen */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Modal content box */
+.modal-content {
+  background-color: #fff;
+  width: auto;
+  max-width: 500px;
+  padding: 60px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+  .brand-logo{
+    width: 30%;
+    margin:0 auto ;
+    margin-bottom: 10px;
+  }
+
+  p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  .wallet-buttons {
+    display: grid;
+    grid-gap: 15px;
+    margin-bottom: 20px;
+    
+
+    .wallet-button {
+      padding: 10px 14px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      text-align: left;
+      background-color: #f9f9f9;
+      color: #333;
+      font-size: 16px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      transition: background-color 0.10s;
+
+      &:hover {
+        border: 2px solid #d1d0ee;
+      }
+
+      &.metamask .trustwallet .phantomwallet .coinbasewallet{
+        color: #2f2f2f;
+        
+      }
+    }
+  }
+
+  .terms {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .close-modal-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover {
+       border: 1px solid #f71753;
+       color: #f71753;
+    }
+  }
+}
