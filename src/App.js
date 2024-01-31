@@ -7,7 +7,7 @@ import Buyers from "./pages/Buyers";
 import Home from "./pages/Home";
 import ConnectWallet from "./sections/ConnectWallet";
 import BuyTickets from "./sections/BuyTickets";
-import Footer from './sections/Footer'
+import Footer from './sections/LandingPage/Footer'
 
 
 function App() {
