@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+
 import HeroImg from "../assets/hero11.png"
 import { Link } from 'react-router-dom';
 import "./HeroHeaderSection.scss"
