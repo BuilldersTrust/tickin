@@ -5,6 +5,7 @@ import trustWalletImage from '../assets/Trust wallet.png';
 import phantomImage from '../assets/Phantom.png';
 import coinbaseImage from '../assets/Component 2.png';
 import brand from '../assets/logo2.png';
+import EventiiWeb3 from '../EventiiWeb3';
 
 const wallets = [
     {
@@ -41,6 +42,8 @@ const ConnectWalletButton = () => {
         console.log(`Connecting to ${walletName}`);
 
         closeModal();
+
+        EventiiWeb3.connectWallet().then(() => window.location.assign('/'))
     };
 
     return (
