@@ -7,7 +7,8 @@ import Buyers from "./pages/Buyers";
 import Home from "./pages/Home";
 import ConnectWallet from "./sections/ConnectWallet";
 import BuyTickets from "./sections/BuyTickets";
-import Footer from './sections/Footer'
+import Footer from './sections/LandingPage/Footer'
+import CreateEvent from './sections/CreateEvent'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="buyers" element={<Buyers />} />
           <Route path="connect-wallet" element={<ConnectWallet />} />
           <Route path="buy-tickets" element={<BuyTickets />} />
+          <Route path="create-events" element={<CreateEvent />} />
         </Routes>
       </BrowserRouter>
       <Footer />

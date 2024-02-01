@@ -1,0 +1,48 @@
+.status-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    align-items: center;
+}
+
+.card {
+    
+    border-radius: 8px;
+    margin: 0;
+
+    .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1px;
+        background-color: #fff;
+        
+
+        .card-title {
+            color: #333333;
+            font-size: 14px;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        .card-icon {
+            background-color: #007bff; 
+            color: #FFFFFF;
+            border-radius: 6px;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+    }
+
+
+        .card-number {
+            color:  inherit;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+   
+}

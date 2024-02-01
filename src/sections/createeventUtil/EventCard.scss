@@ -1,0 +1,156 @@
+.events-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; // This sets the space between the cards
+  justify-content: center; // This centers the cards in the container
+  padding: 20px; // Add padding to the container
+}
+
+.event-card {
+  flex: 0 1 340px; // Cards can grow to fill space but start at 340px
+  // ... rest of your event-card styles
+}
+
+// .event-card {
+//     display: flex;
+// width: 50%;
+//     gap: 20px;
+//   background: #ffffff; 
+//   justify-content:center;
+//   border-radius: 10px;
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//   font-family: 'Helvetica', sans-serif;
+//   max-width: 340px; 
+
+  .event-image {
+    position: relative;
+    img {
+      width: 100%;
+      height: auto;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .status {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      background-color: #FFD700; // Gold color, replace with the correct one
+      color: #ffffff;
+      padding: 4px 12px;
+      border-radius: 12px;
+      font-size: 0.75em;
+      font-weight: bold;
+    
+  }
+
+  .event-content {
+    padding: 16px;
+
+    .event-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+
+      h2 {
+        font-size: 1.25em;
+        color: #333333; // Replace with the correct color
+        margin: 0;
+        font-weight: normal;
+      }
+
+      .menu {
+        font-size: 24px;
+        color: #CCCCCC; // Replace with the correct color
+        cursor: pointer;
+      }
+    }
+
+    .event-info {
+      margin-bottom: 16px;
+      
+      .category {
+        color: #666666; // Replace with the correct color
+        font-size: 0.85em;
+        span {
+          font-weight: bold;
+        }
+      }
+
+      .details {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.85em;
+        color: #666666; // Replace with the correct color
+
+        .location {
+          display: flex;
+          align-items: center;
+        }
+
+        .date {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+
+          span {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .event-footer {
+      border-top: 1px solid #eaeaea;
+      padding-top: 12px;
+      display: flex;
+      justify-content: space-between;
+
+      .tickets {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .available-tickets,
+        .ticket-sales {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          p {
+            color: #666666; // Replace with the correct color
+            font-size: 0.75em;
+            margin-bottom: 4px;
+          }
+
+          span {
+            font-size: 1em;
+            font-weight: bold;
+          }
+        }
+
+        .ticket-sales {
+          margin-left: 24px; // Adjust based on your layout
+        }
+      }
+
+      .revenue {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        p {
+          color: #5cb85c; // Replace with the correct green color
+          font-size: 0.75em;
+          margin-bottom: 4px;
+        }
+
+        span {
+          color: #5cb85c; // Replace with the correct green color
+          font-size: 1em;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

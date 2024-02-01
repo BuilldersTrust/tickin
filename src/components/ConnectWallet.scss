@@ -1,25 +1,24 @@
-/* Base styles for the body, etc. */
+
 body {
   font-family: 'Arial', sans-serif;
 }
 
-/* Styling for the button that opens the modal */
+
 .open-modal-button {
-  padding: 10px 20px;
+  padding: 10px 18px;
   font-size: 16px;
-  color: #fff;
-  background-color: #007bff;
-  border: none;
-  border-radius: 4px;
+  color: #000;
+  border: 2px solid #194486;
+  border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.2s;
 
   &:hover {
-    background-color: #0056b3;
+    background-color: #0057b30f;
   }
 }
 
-/* Overlay that covers the entire screen */
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -33,7 +32,7 @@ body {
   z-index: 10;
 }
 
-/* Modal content box */
+
 .modal-content {
   background-color: #fff;
   width: auto;

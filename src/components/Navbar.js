@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <header className=' h-[80px] shadow-sm px-20'>
             <nav className='flex justify-between text-center flex-end p-2 items-cente'>
-                <div className="logo pt-5">
+                <div className="logo pt-2">
                     <Link to="/"><img src={logo2} alt="logo" /></Link>
                 </div>
                 <div className="nav-links-btn flex text-center align-middle pt-2 ">
