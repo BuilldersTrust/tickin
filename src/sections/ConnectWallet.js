@@ -78,6 +78,38 @@
 
 // export default ConnectWallet;
 import React from 'react'
+import '../components/ConnectWallet.scss'; 
+import metaMaskImage from '../assets/Meta mask.png';
+import trustWalletImage from '../assets/Trust wallet.png';
+import phantomImage from '../assets/Phantom.png';
+import coinbaseImage from '../assets/Component 2.png';
+import brand from '../assets/logo2.png';
+import EventiiWeb3 from '../EventiiWeb3'
+
+// The array of wallets
+const wallets = [
+    {
+        img: metaMaskImage,
+        name: 'MetaMask',
+        id: 1
+    },
+    {
+        img: trustWalletImage,
+        name: 'TrustWallet',
+        id: 2
+    },
+    {
+        img: phantomImage,
+        name: 'PhantomWallet',
+        id: 3
+    },
+    {
+        img: coinbaseImage,
+        name: 'CoinbaseWallet',
+        id: 4
+    }
+];
+
 
 function ConnectWallet() {
     return (
