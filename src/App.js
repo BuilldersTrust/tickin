@@ -23,7 +23,7 @@ function App() {
           <Route path="creators" element={<Creators />} />
           <Route path="buyers" element={<Buyers />} />
           <Route path="connect-wallet" element={<ConnectWallet />} />
-          <Route path="buy-tickets" element={<BuyTickets />} />
+          <Route path="buy-tickets" element={<BuyTickets />} />be
         </Routes>
       </BrowserRouter>
       <Footer />
