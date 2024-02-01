@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import './ConnectWallet.scss';
 import metaMaskImage from '../assets/Meta mask.png';
 import trustWalletImage from '../assets/Trust wallet.png';
@@ -31,16 +31,16 @@ const wallets = [
 ];
 
 const ConnectWalletButton = () => {
-    // State to control the visibility of the modal
+
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const openModal = () => setIsModalOpen(true);
     const closeModal = () => setIsModalOpen(false);
 
     const ConnectWalletButton = (walletName) => {
-        // Logic to connect to the wallet
+
         console.log(`Connecting to ${walletName}`);
-        // Close modal after wallet selection
+
         closeModal();
 
         EventiiWeb3.connectWallet().then(() => window.location.assign('/'))

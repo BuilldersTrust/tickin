@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import ConnectWallet from "./sections/ConnectWallet";
 import BuyTickets from "./sections/BuyTickets";
 import Footer from './sections/LandingPage/Footer'
-import CreateEvent from "./sections/CreateEvent";
+import CreateEvent from './sections/CreateEvent'
 
 
 function App() {
@@ -24,8 +24,8 @@ function App() {
           <Route path="creators" element={<Creators />} />
           <Route path="buyers" element={<Buyers />} />
           <Route path="connect-wallet" element={<ConnectWallet />} />
-          <Route path="create-event" element={<CreateEvent />} />
-          <Route path="buy-tickets" element={<BuyTickets />} />be
+          <Route path="buy-tickets" element={<BuyTickets />} />
+          <Route path="create-events" element={<CreateEvent />} />
         </Routes>
       </BrowserRouter>
       <Footer />
