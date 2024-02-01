@@ -19,7 +19,6 @@ function Home() {
                 <CTA/>
                 <Partners/>
                 <Statistics/>
-                <Footer />
             </div>
         </>
     )

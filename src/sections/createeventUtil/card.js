@@ -1,5 +1,5 @@
 import React from 'react'
-import './card.scss'
+import './Card.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons'
 
